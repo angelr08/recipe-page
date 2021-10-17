@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+body {
+    background: #FAFAFA;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+}
+
+h1 {
+    font-size: 24rem;
+    margin-block-start: 32px;
+    margin-inline-start: 11px;
+    margin-block-end: 12px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 31.99px;
+}
+
+header img {
+    width: 13px;
+    height: 8px;
+    margin-inline-end: 12px;
+}
+
+header p {
+    font-size: 12rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 14.63px;
+    font-style: italic;
+    color: #4F4F4F;
+}
+
+header div {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.recipe-time {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recipe-time figure {
+    width: 100%;
+    border-radius: 12px;
+    margin-block-end: 24px;
+}
+
+.recipe-time figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe-time__yield {
+    display: flex;
+    margin-block-end: 20px;
+}
+
+.recipe-time__yield img {
+    width: 13.54px;
+    height: 12.57px;
+    color: #F2994A;
+}
+
+.recipe-time__yield div {
+    margin-inline-start: 5px;
+}
+
+.recipe-time__yield div p:first-child {
+    font-size: 8rem;
+} 
+
+.recipe-time__yield div p:last-child {
+    font-size: 10rem;
+}
+
+.recipe-time__info {
+    width: 100%;
+}
+
+.recipe-time__info-extra img {
+    width: 14.17px;
+    height: 14.17px;
+}
+
+.recipe-time__info-extra div p:first-child {
+    font-size: 8rem
+}
+
+.recipe-time__info-extra div p:last-child {
+    font-size: 10rem;
+}
