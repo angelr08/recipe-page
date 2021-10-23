@@ -50,18 +50,23 @@ header div {
 
 .recipe-time {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 0 30px 0;
 }
 
-.recipe-time figure {
-    width: 100%;
+.recipe-picture {
+    width: 90%;
     border-radius: 12px;
-    margin-block-end: 24px;
+    margin: 0 auto 24px auto;
 }
 
-.recipe-time figure img {
+.recipe-picture img {
     max-width: 100%;
     height: auto;
+}
+
+.data {
+    width: 90%;
+    margin: 0 auto 30px auto;
 }
 
 .recipe-time__yield {
@@ -81,25 +86,309 @@ header div {
 
 .recipe-time__yield div p:first-child {
     font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 9.75px;
+    color: #BDBDBD;
 } 
 
 .recipe-time__yield div p:last-child {
     font-size: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 12.19px;
+    color: #F2994A;
 }
 
 .recipe-time__info {
-    width: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-time__info-extra {
+    display: flex;
 }
 
 .recipe-time__info-extra img {
     width: 14.17px;
     height: 14.17px;
+    margin-inline-end: 6px;
 }
 
 .recipe-time__info-extra div p:first-child {
-    font-size: 8rem
+    font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 9.75px;
+    color: #BDBDBD;
 }
 
 .recipe-time__info-extra div p:last-child {
     font-size: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 12.19px;
+    color: #333333;
 }
+
+.ingredients {
+    width: 100%;
+}
+
+.ingredients h2 {
+    font-size: 18rem;
+    margin-block-end: 13px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 24px;
+    color: #333333;
+}
+
+.ingredients__cracker {
+    margin-block-end: 39px;
+}
+
+.ingredients__cheesecake {
+    width: 100%;
+}
+
+.ingredients .ingredients__cracker h3 {
+    font-size: 16rem;
+    margin-block-end: 23px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 23.33px;
+}
+
+.ingredients .ingredients__cheesecake h3 {
+    font-size: 18rem;
+    margin-block-end: 23px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 23.33px;
+}
+
+.ingredients label {
+    display: flex;
+    margin-block-end: 10px;
+}
+
+.ingredients label div {
+    width: 90%;
+}
+
+.ingredients label div p {
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    color: #333333;
+}
+
+.ingredients input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+    margin-inline-end: 8px;
+    border-radius: 4px;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto 129px auto;
+}
+
+main h2 {
+    font-size: 24rem;
+    margin-inline-start: 12px;
+    margin-block-end: 26px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 32px;
+    color: #333333;
+}
+
+.instructions {
+    width: 100%;
+    display: flex;
+    margin-block-end: 9px;
+}
+
+.instructions__number {
+    width: 36px;
+    height: 36px;
+    background: #F2994A;
+    margin-inline-end: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions__details {
+    width: 90%;
+}
+
+.instructions__number p {
+    font-size: 24rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.instructions__details p {
+    font-size: 16rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 19.5px;
+}
+
+.source {
+    font-size: 12rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+
+footer {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 14px;
+    color: #828282;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        width: 80%;
+        height: 196px;
+    }
+    h1 {
+        font-size: 48rem;
+        margin: 32px 0 12px 0;
+        line-height: 63.98px;
+    }
+    header div {
+        width: 95%;
+        margin: 0;
+    }
+    header p {
+        font-size: 14rem;
+    }
+    .recipe-picture {
+        width: 80%;
+        margin: 0 0 24px 0;
+    }
+    .data {
+        width: 80%;
+        margin: 0 0 30px 0;
+    }
+    .recipe-time__yield img {
+        width: 27.09px;
+        height: 25.14px;
+    }
+    .recipe-time__yield div p:first-child {
+        font-size: 10rem;
+        line-height: 12.19px;
+    }
+    .recipe-time__yield div p:last-child {
+        font-size: 14rem;
+        line-height: 17.07px;
+    }
+    .recipe-time__info-extra img {
+        width: 28.33px;
+        height: 26.52px;
+    }
+    .recipe-time__info-extra div p:first-child {
+        font-size: 10rem;
+        line-height: 12.19px;
+    }
+    .recipe-time__info-extra div p:last-child {
+        font-size: 14rem;
+        line-height: 17.07px;
+    }
+    .ingredients h2 {
+        font-size: 24rem;
+        line-height: 32px;
+    }
+    .ingredients .ingredients__cracker h3 {
+        font-size: 18rem;
+        line-height: 24px;
+    }
+    .ingredients label div p {
+        font-size: 16rem;
+    }
+    main {
+        width: 80%;
+        margin: 0 0 129px 0;
+    }
+    .source {
+        font-size: 16rem;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        width: 70%;
+        height: 196px;
+    }
+    header div {
+        width: 75%;
+    }
+    .recipe-picture {
+        width: 70%;
+        margin: 0 0 48px 0;
+    }
+    .data {
+        width: 70%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .recipe-time {
+        width: 216px;
+        height: 367px;
+        margin: 0;
+        box-shadow: 0px 0px 20px 0px #0000001A;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 4fr;
+    }
+    .ingredients {
+        width: 60%;
+    }
+    .recipe-time__yield {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .recipe-time__info {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 60%;
+        justify-self: center;
+    }
+    .main {
+        width: 60%;
+    }
+    .instructions {
+        width: 60%;
+    }
+}
+
